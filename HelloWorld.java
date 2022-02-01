@@ -1,6 +1,12 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("please enter Hello World");
+        int a = 5;
+        int b = 3;
+
+        System.out.println( add (a, b) + "  " + "please enter Hello World");
+    }
+    public static int add (int a, int b){
+        return a + b;
     }
 
 }
